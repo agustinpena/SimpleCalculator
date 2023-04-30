@@ -11,7 +11,6 @@
         button.addEventListener('click', function (e) {
             let value = e.target.dataset.num;
             screen.value += value;
-            console.log(screen.value); // debugging line
         })
     });
 
